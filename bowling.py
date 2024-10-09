@@ -4,6 +4,9 @@ from frame import Frame
 
 class BowlingGame:
 
+    def __init__(self):
+        pass
+    
     def add_frame(self, frame: Frame) -> None:
         pass
 
