@@ -10,6 +10,9 @@ class BowlingGame:
     def add_frame(self, frame: Frame) -> None:
         pass
 
+    def get_frame_at(self, i: int) -> Frame:
+        pass
+
     def calculate_score(self) -> int:
         pass
 
