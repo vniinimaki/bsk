@@ -9,6 +9,12 @@ class Frame:
     def score(self) -> int:
         return self._first_throw + self._second_throw + self._bonus_throw
 
+    def get_first_throw(self) -> int:
+        return self._first_throw
+
+    def get_second_throw(self) -> int:
+        return self._second_throw
+
     def is_strike(self) -> bool:
         return self._first_throw == 10
 
